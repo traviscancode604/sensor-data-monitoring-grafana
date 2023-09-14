@@ -18,7 +18,7 @@ Below are the simplified steps that you need to take:
 1. Clone this repo into your Raspberry Pi. 
 
     ``` git
-    git clone https://github.com/tonypowa/Temperature-and-humidity-monitoring-with-Raspberry-Pi-and-Grafana.git
+    git clone https://github.com/tonypowa/sensor-data-monitoring-grafana
     ```
 
 2. Open the console from the folder containing the cloned files.
