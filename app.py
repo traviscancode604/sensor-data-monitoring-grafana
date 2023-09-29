@@ -9,7 +9,6 @@ def get_temperature_readings():
     humidity, temperature = dht_sensor.read_retry(dht_sensor.DHT22, 4)
     humidity = format(humidity, ".2f")
     temperature = format(temperature, ".2f")
-    # outside_temp = get_outside_weather()
     if all(v is not None for v in [humidity, temperature]):
         response = {"temperature": temperature, "humidity": humidity}
         return response
@@ -18,7 +17,6 @@ def get_temperature_readings():
         humidity, temperature = dht_sensor.read_retry(dht_sensor.DHT22, 4)
         humidity = format(humidity, ".2f")
         temperature = format(temperature, ".2f")
-        # outside_temp = get_outside_weather()
         response = {"temperature": temperature, "humidity": humidity}
         return response
 
