@@ -26,18 +26,10 @@ Below are the simplified steps that you need to take:
 3. Install the Python libraries in your Raspberry Pi.
 
     ```shell
-    pip3 install Adafruit_DHT flask prometheus_client requests
+    pip3 install Adafruit_DHT flask prometheus_client
     ```
 
-4. Get your own API key from [openWeatherMap](https://openweathermap.org/price#weather), so we can also monitor the outside temperature of our location.
-
-5. In the file `app.py`, line 7, enter your openWeatherMap API key. Save and exit.
-
-    ```
-    "appid": "your-api-key"
-    ```
-
-6. Create, and run the Python script as a service.
+4. Create, and run the Python script as a service.
 
    ``` shell
    sudo nano /etc/systemd/system/sensor-flask.service
