@@ -67,7 +67,7 @@ Below are the simplified steps that you need to take:
    
     Your Python web server should be up and running.
 
-    If you send a request to  http://localhost:5000/metrics , or visit http://{you-raspberry-pi-IP-address}:5000/metrics from another machine in your network, you should be able to see the exported metrics.
+    If you send a request to  http://localhost:5000/metrics , or visit [http://{you-raspberry-pi-IP-address}:5000/metrics]() from another machine in your network, you should be able to see the exported metrics.
 
 ### Step 2 - Prometheus
 
