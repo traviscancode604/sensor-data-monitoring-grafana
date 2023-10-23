@@ -90,4 +90,4 @@ docker run \
 
 From your machine, access your Raspberry PI by entering the IP address into the browser address: [http://{you-raspberry-pi-IP-address}:3000]() . The Grafana login page should appear (if you [installed Grafana](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/) before to this point).
 
-DONE! Go ahead and [Explore]() [LINK TO LAST SECTION OF THE BLOG]() your data and create your own dashboards.
+DONE! 🚀 You can go ahead and [explore](https://grafana.com/blog/2023/10/23/monitor-temperature-and-humidity-with-grafana-and-raspberry-pi/#monitor-your-temperature-and-humidity-data-from-grafana) your data and create your own dashboards.
