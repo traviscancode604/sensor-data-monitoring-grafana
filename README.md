@@ -18,7 +18,7 @@ Below are the simplified steps that you need to take:
 1. Clone this repo into your Raspberry Pi. 
 
     ``` git
-    git clone https://github.com/tonypowa/sensor-data-monitoring-grafana
+    git clone https://github.com/tonypowa/sensor-data-monitoring-grafana.git
     ```
 
 2. Open the console from the folder containing the cloned files.
