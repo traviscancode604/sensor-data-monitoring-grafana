@@ -2,7 +2,7 @@
 
 This repo contains the code files, and the commands to run a Python app for monitoring temperature and humidity with a Raspberry Pi and Grafana.
 
-For the full step-by-step instructions including hardware and software requirements, Raspberry Pi sensor wiring, code explanation, and overview of the tech stack needed (Python, Prometheus, Docker), see this [blog post](). 
+For the full step-by-step instructions including hardware and software requirements, Raspberry Pi sensor wiring, code explanation, and overview of the tech stack needed (Python, Prometheus, Docker), see this [blog post](https://grafana.com/blog/2023/10/23/monitor-temperature-and-humidity-with-grafana-and-raspberry-pi/). 
 
 ## How to use the files
 
